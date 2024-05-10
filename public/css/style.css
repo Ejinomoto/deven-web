@@ -1386,6 +1386,10 @@ input:checked + .toggle-bg {
   max-width: 1300px;
 }
 
+.max-w-\[405px\] {
+  max-width: 405px;
+}
+
 .max-w-\[410px\] {
   max-width: 410px;
 }
@@ -2754,10 +2758,6 @@ input:checked + .toggle-bg {
 
   .lg\:max-w-full {
     max-width: 100%;
-  }
-
-  .lg\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .lg\:grid-cols-3 {
