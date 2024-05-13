@@ -2720,6 +2720,10 @@ input:checked + .toggle-bg {
     margin-top: 2.25rem;
   }
 
+  .lg\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -2850,6 +2854,10 @@ input:checked + .toggle-bg {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
   }
 
   .lg\:gap-4 {
